@@ -4,6 +4,13 @@
   background-color: blue;
   transition: all 0.5s ease-in;
   cursor: pointer;
+  margin-bottom: 20px;
+  text-align: center;
+  line-height: 300px;
+}
+
+button {
+    margin-right: 20px;
 }
 
 @keyframes blink {

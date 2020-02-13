@@ -5,7 +5,7 @@ function reset() {
 let box = document.querySelector(".box")
 
 function paintItBlack() {
-  box.style.backgroundColor = "black"
+  box.style.backgroundColor = "black";
   box.style.animation = "none"
 }
 
@@ -22,10 +22,10 @@ function makeItBlink() {
 }
 
 function addText() {
-
+  document.querySelector('.box').textContent = document.getElementById("textInput").value;
 }
 
 function customColor() {
-  color = getElementById('colorInput').value;
-  box.style.backgroundColor = color;
+  box.style.backgroundColor = document.getElementById('colorInput').value;
+  box.style.animation = "none"
 }
